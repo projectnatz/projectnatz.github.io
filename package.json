@@ -1,0 +1,40 @@
+{
+  "name": "projectnatz.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Francesco Natati",
+  "main": "index.html",
+  "scripts": {
+    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:release": "NODE_ENV=production npx postcss build ./src/css/tailwind.css -o ./public/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectnatz/projectnatz.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "francesco",
+    "natati",
+    "web",
+    "web-developer",
+    "developer",
+    "front-end",
+    "back-end",
+    "full-stack"
+  ],
+  "author": "projectnatz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/projectnatz/projectnatz.github.io/issues"
+  },
+  "homepage": "https://github.com/projectnatz/projectnatz.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
